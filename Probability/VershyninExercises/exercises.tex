@@ -1,0 +1,113 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm,amsfonts,verbatim}
+\usepackage{enumerate}
+\usepackage{microtype}
+\usepackage{url}
+\usepackage[letterpaper]{geometry}
+\usepackage[all,arc]{xy}
+\usepackage{mathrsfs}
+\usepackage{listings, color} 
+\usepackage[pdftex]{graphicx}
+\usepackage[section]{placeins}
+\usepackage[official]{eurosym}
+\usepackage{textcomp}
+
+%\addtolength{\evensidemargin}{-.5in}
+%\addtolength{\oddsidemargin}{-.5in}
+%\addtolength{\textwidth}{0.8in}
+%\addtolength{\textheight}{0.6in}
+%\addtolength{\topmargin}{-.3in}
+
+\newtheoremstyle{quest}{\topsep}{\topsep}{}{}{\bfseries}{}{ }{\thmname{#1}\thmnote{ #3}.}
+\theoremstyle{quest}
+\newtheorem*{definitionq}{Definition}
+
+\theoremstyle{plain}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{question}{Question}
+\newtheorem{remark}{Remark}
+%\newtheorem{definition}[theorem]{Definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{challenge}[theorem]{Challenge Problem}
+
+%\newtheorem*{solution}{Solution}
+
+\newcommand{\solution}[1]{}
+%\newcommand{\solution}[1]{\medskip\textbf{Solution:}  #1}
+
+
+\title{\vspace{-100pt} Tripods REU, Summer 2020}
+\author{}
+\date{}
+
+
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\Z}{\mathbb{Z}}
+\DeclareMathOperator{\C}{\mathbb{C}}
+\DeclareMathOperator{\CP1}{\mathbb{CP}^1}
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\h}{\mathbb{H}}
+\DeclareMathOperator{\s}{\mathbb{S}}
+\DeclareMathOperator{\F}{\mathbb{F}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\B}{\mathcal{B}}
+\DeclareMathOperator{\Tor}{\text{Tor}}
+\DeclareMathOperator{\Aut}{\text{Aut}}
+\DeclareMathOperator{\Hess}{\text{Hess}}
+\DeclareMathOperator{\grad}{\text{grad}}
+\DeclareMathOperator{\Ric}{\text{Ric}}
+\DeclareMathOperator{\Hom}{\text{Hom}}
+\DeclareMathOperator{\diag}{\textbf{diag}}
+\DeclareMathOperator{\Her}{\text{Her}}
+\DeclareMathOperator{\Sp}{\text{Sp}}
+\DeclareMathOperator{\cl}{\textbf{cl}}
+\DeclareMathOperator{\interior}{\textbf{int}}
+\DeclareMathOperator{\Tr}{\mathbf{Tr}}
+\DeclareMathOperator{\rank}{\mathbf{rank}}
+\DeclareMathOperator{\dom}{\mathbf{dom}}
+\DeclareMathOperator{\llangle}{\langle \langle}
+\DeclareMathOperator{\rrangle}{\rangle \rangle}
+\def\Var{\text{Var}}
+\DeclareMathOperator{\fxd}{\text{FXD}}
+\DeclareMathOperator{\sw}{\text{SW}}
+
+\newcommand{\Zi}{\Z[i]}
+
+\newcommand{\ud}{\,\mathrm{d}}
+
+% \DeclareMathOperator{\sin}{sin}   %% just an example (it's already defined)
+\DeclareMathOperator{\norm}{norm}
+
+
+\renewcommand{\baselinestretch}{1.2}
+\begin{document}
+\maketitle
+\vspace{-60pt}
+\begin{center}
+{\Large \bf Problem Set \# 1}\\\vspace{5pt}
+{Due ?}
+\end{center}
+
+List of essential exercises: Ex 0.0.3, Ex 1.2.2, 1.2.6,
+List of optional exercises: Ex 1.3.3,
+List of exercises for projects:
+
+\begin{question}
+Problem goes here.
+
+\solution{
+Solution here.
+}
+\end{question}
+
+\end{document}
