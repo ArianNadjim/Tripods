@@ -66,7 +66,57 @@ Email Alex privately if anyone (except Arian or Mandar) wants to give any partic
 
 General meeting: Tuesday 9pm (EST)
 
+07-14-2020: Big group meeting
 
+ElementaryPython folder in the dropbox is just for the most basic example code and tutorials. This is not for final projects.
 
+Scott Kirila has joined our adventure:-)
 
+We're trying to sort out github and github desktop.
+
+There is a python notebook with a dataframe showing which roles are assigned to whom.
+
+Final number of participants decision will be made before we meet next week.
+
+07-15-2020: Team GI Joe meeting (Arian, Azita, Ian, Mandar, Steve)
+
+Arian's deliverables:
+- Theorem 0.0.2 special case for hypercube
+ - Maybe not very interesting to find exact solution, just linear algebra.
+ - Implemented a local search algorithm, finds a local min.
+ - Possibly use this to demo hillclimbing and beamsearch
+ - Could we also impliment gradient descent here?
+ - Ian suggested we switch to simplex, compute the answer, and compare to the random program.
+ - Can we graph the cost function and show that it's convex.
+ 
+Steve's deliverables:
+- Not much. Some tensorflow tutorial code with little understanding.
+
+Azita offered to look for some machine learning problems for students to explore.
+
+Mandar explained a lot of stuff to us.
+
+Ian is wondering if we could train the neural net to find good point approximations for Theorem 0.0.2.
+
+Deliverables for next meeting:
+- Arian will do the simplex approach mentioned above.
+- Mandar will flesh out Arian's code into an "intro to data science algorithms"
+- Steve and Ian will explore the autocorrelation in random walk on a graph, and tensorflow more.
+
+07-21-2020: Big Meeting
+
+starting with recaps:
+GIJoe:
+- basic python notebook
+- approximate cartheodory python code (Arian)
+- covering a polygon with random balls
+- random walk on graph problems
+
+Cobra:
+- Two blackbox coinflip functions. Have students quantify which one is fair. quantify fairness. (Ustun)
+- basic tools for random vectors with numpy, and chapter 3's first claim (Charlotte)
+- impliment basic chapter 1 concepts, mean variance, lp norm, covariance (Yujia)
+
+sketch: monday - first lecture (book or basic skills?), then implementation sessions - simple examples, options for followups.
+as long as they're involved and as long as we have sufficient material, life will be good.
 
