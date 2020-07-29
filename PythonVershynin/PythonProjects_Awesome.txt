@@ -113,10 +113,68 @@ GIJoe:
 - random walk on graph problems
 
 Cobra:
-- Two blackbox coinflip functions. Have students quantify which one is fair. quantify fairness. (Ustun)
+- Two blackbox coinflip functions. Have students quantify which one is fair. quantify fairness. visualize chebychev (Ustun)
 - basic tools for random vectors with numpy, and chapter 3's first claim (Charlotte)
 - impliment basic chapter 1 concepts, mean variance, lp norm, covariance (Yujia)
 
 sketch: monday - first lecture (book or basic skills?), then implementation sessions - simple examples, options for followups.
 as long as they're involved and as long as we have sufficient material, life will be good.
 
+07-22-2020: GIJOE meeting
+
+Arian: Implimented a simplex sampling algorithm for Thm 0.0.2. It has lots of flexibility.
+Ian suggested we could have the students run this algorithm with various parameters and try to find the distribution.
+Ian gave some mathematica simulations related to the random walk on the graph.
+Azita said Reza recommended coding most of the tensorflow things by hand, learn more about assumptions of problems.
+Azita also recommended assigning students a linear regression problem.
+Steve shared his amazing ball covering code. Can students use their solutions for Thm 0.0.2 for this?
+
+deliverables!
+Mandar: Turn Arian's hypercube code into basic search algorithm tutorial.
+Steve & Ian: give a well-posed problem statement for the graph walk problem.
+Arian: merge approximate caratheodory and ball covering code. Look later in the book.
+
+07-26-2020: non meeting
+
+Arian: coding on appx cartheodory. maybe we can make an adversial point set that makes local search perform poorly?
+Steve: coded some graph classes in python.
+Charlotte: concentration of norm for random vectors. animation of Lp circles. kaggle datasets.
+
+07-28-2020: big meeting
+
+plan for first few days. Lectures will be recorded because some people will be in China.
+8am-9am - first lecture
+10am-11am - second lecture
+2pm-3:30pm - python (We'll have code for them to play with. They should generate projects.)
+7:30pm-9pm - recitation
+
+Monday:
+- 8am-9am: appetizer lecture (Alex)
+- 10am-11am: Basic probability skills (Sevak)
+
+Tuesday:
+- 8am-9am: Vershynin (Alex)
+- 10am-11am: More basic probability (Sevak)
+
+Steve might want to ask Ethan Lynch to be a python TA.
+Mandar might be setting up a discord server for people to work together.
+Perhaps some sort of social events on the weekends.
+
+07-29-2020: GIJOE
+
+Steve: random walk on graph might have tricky "probability space." Maybe we start with a cycle, then add some other edges.
+Ian: Watts-Strogatz model should help. Barabasi Albert model?
+Graph problems: Better first question: What's the probability we hit each vertex in a random walk on a compleete graph? cycle?
+Then we ask the kids to come up with a "random graph" question. They might ask us to be more precise about "random graph," and THEN
+we tell them about the various known models. Maybe they could model disease spreading?
+
+Mandar made a beautiful jupyter notebook guiding students through Arian's search code.
+
+Arian coded up a visualization for Corollary 0.0.4. Maybe we could grab some small subset of the N^k points (ball centers) at random, and ask how efficient that covering is? His code currently computes all possible points iteratively, but maybe we could compute fewer, and perhaps have some criteria for picking "good" point sets?
+
+Deliverables:
+
+Mandar might code up a linear regression python demo. Also maybe the house price dataset thing.
+Arian might implement something from Chapter 10, and might work on his ball covering code some more.
+Steve and Ian will work on the random walk problem.
+All of us might make more lab things like Mandar made.
