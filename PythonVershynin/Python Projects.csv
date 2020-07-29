@@ -1,0 +1,13 @@
+Initial version of this file is far from complete!,Please feel free to add the projects (or just proposals) you are working on here,,,,
+,,,,,
+,,,,,
+Project name,Brief Description,Contributors,Status,Relevant File/Folder,Comments
+,,,,,
+Basic Concepts,"Computation of mean, variance, etc.",Yujia Zhai,,PythonVershynin/BasicConcepts.ipynb,
+Chebyshev’s Inequality,Compute both sides of the inequality and plot the difference over different values of t,Xiaobo Luo,,PythonVershynin/Corollary 1.2.5.ipynb,Not on github yet!
+Two coins,Provide two different coin flip functions to students and ask if they are fair coins.,Ustun Yildirim,Investigating different possibilities on how to hide the internal code.,,
+Erdos-Renyi Graphs,"Given n and p, plot a random graph using the Erdos-Renyi model. Also plot the distribution of the degrees of the vertices.",Ustun Yildirim,Done / Looking for ways to extend this,PythonVershynin/RandomGraphs.ipynb,
+Chebyshev’s Inequality on Real Life Data,Take a real life data set and essentially repeat project “Chebyshev’s Inequality” on that.,Ustun Yildirim,A primitive version is ready using some earthquake data.,PythonVershynin/Chebyshev's Inequality on earthquakes,
+Visualize Lp norm over R^2,,,Open to different ideas,,
+Hoeffding’s Inequality,"For a few different fixed t values, plot the difference between the LHS and the RHS over a in R^2.",,,,
+Exercise 2.3.8,"Show the converge stated in the exercise empirically (e.g. for different lambda values, sample from the given distribution and plot a histogram).",,,,
